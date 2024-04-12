@@ -1,0 +1,354 @@
+/* DEFAULT OVERRIDES */
+* {
+    box-sizing: border-box;
+    font-family:serif;
+    color: whitesmoke;
+}
+html {
+    /* Set the scroll padding so that the link is not covered by the navbar */
+    scroll-padding-top: 5rem;
+}
+
+body {
+    /* Looks */
+    background-color: #1b1b1b;
+    /* Positioning */
+    margin: 0;
+}
+
+/* NAVIGATION BAR */
+
+/* Navigation bar style sheet - now using flex box */
+.navbar {
+    /* Looks */
+    /* background-color: #333333; */
+    /* Positioning */
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+
+/* Links in navbar  */
+.navbar a {
+    /* Looks */
+    color: whitesmoke;
+    text-decoration: none;
+    /* Positioning */
+    text-align: center;
+    padding: 14px 16px;
+    transition: all 0.5s;
+}
+
+.navbar a img {
+    transition: all 0.5s;
+}
+
+/* Events */
+.navbar a:hover {
+    background-color: whitesmoke;
+    color: #1b1b1b
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.hidden {
+    opacity: 0;
+    transition-delay: 1s;
+    transition: all 3s;
+}
+
+.show {
+    opacity: 1;
+}
+
+.welcome {
+    position: relative;
+    left: 7%;
+    width: 60%;
+    padding: 12% 0;
+}
+
+.welcome h1 {
+    font-size: 54px;
+}
+
+.welcome p {
+    overflow: auto;
+    font-size: 22px;
+}
+
+.skills {
+    position: relative;
+    left: 7%;
+    width: 65%;
+    padding: 10% 0 5%;
+}
+
+.skills h1 {
+    font-size: 54px;
+    margin-bottom: 30px;
+}
+
+.skills ul {
+    position: relative;
+    font-size: 22px;
+    left: 15px;
+}
+
+.skills li {
+    position: relative;
+    padding: 5px 0;
+}
+
+.studying {
+    position: relative;
+    right: 7%;
+    margin-left: auto;
+    width: 65%;
+    padding: 6% 0 12%;
+    text-align: right;
+}
+
+.studying h1 {
+    font-size: 54px;
+    margin-bottom: 30px;
+}
+
+.studying ul {
+    position: relative;
+    list-style-position: inside;
+    font-size: 22px;
+    left: 15px;
+}
+
+.studying li {
+    position: relative;
+    padding: 5px 0;
+}
+
+.hobbies {
+    position: relative;
+    left: 12%;
+    width: 65%;
+    padding: 12% 0 14%;
+}
+
+.hobbies h1 {
+    font-size: 54px;
+    margin-bottom: 30px;
+}
+
+.hobbies p {
+    overflow: auto;
+    position: relative;
+    left: 50px;
+    font-size: 22px;
+}
+
+.hobbies ul {
+    position: relative;
+    list-style-position: inside;
+    font-size: 22px;
+    left: 50px;
+}
+
+.hobbies li {
+    position: relative;
+    padding: 5px 0;
+}
+
+.title {
+    position: relative;
+    text-align: center;
+    font-size: 54px;
+    margin-bottom: 50px;
+    margin-top: 80px;
+}
+
+.link {
+    text-decoration: underline;
+    text-decoration-color: #1b1b1b;
+    transition: all 0.7s;
+}
+
+.link:visited {
+    text-decoration: underline;
+    text-decoration-color: #1b1b1b;
+}
+
+.link:hover {
+    text-decoration: underline;
+    text-decoration-color: whitesmoke;
+}
+
+.link:active {
+    text-decoration: underline;
+    text-decoration-color: whitesmoke;
+}
+
+.vgsockets {
+    position: relative;
+    left: 5%;
+    width: 65%;
+    padding: 5% 0 2%;
+}
+
+.vgsockets h2 {
+    font-size: 46px;
+    margin-bottom: 30px;
+}
+
+.vgsockets p {
+    overflow: auto;
+    position: relative;
+    left: 3%;
+    font-size: 22px;
+}
+
+.pong {
+    position: relative;
+    right: 5%;
+    margin-left: auto;
+    width: 65%;
+    padding: 2% 0;
+    text-align: right;
+}
+
+.pong h2 {
+    font-size: 46px;
+    margin-bottom: 30px;
+}
+
+.pong p {
+    overflow: auto;
+    position: relative;
+    right: 2%;
+    font-size: 22px;
+}
+
+.asteroids {
+    position: relative;
+    left: 5%;
+    width: 65%;
+    padding: 2% 0;
+}
+
+.asteroids h2 {
+    font-size: 46px;
+    margin-bottom: 30px;
+}
+
+.asteroids p {
+    overflow: auto;
+    position: relative;
+    left: 3%;
+    font-size: 22px;
+}
+
+.tic_tac_toe {
+    position: relative;
+    right: 5%;
+    margin-left: auto;
+    width: 65%;
+    padding: 2% 0;
+    text-align: right;
+}
+
+.tic_tac_toe h2 {
+    font-size: 46px;
+    margin-bottom: 30px;
+}
+
+.tic_tac_toe p {
+    overflow: auto;
+    position: relative;
+    right: 2%;
+    font-size: 22px;
+}
+
+.contact {
+    position: relative;
+    left: 2%;
+    width: 45%;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid white;
+
+}
+
+.contact h1 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.contact p {
+    overflow: auto;
+    position: relative;
+    left: 10px;
+    font-size: 18px;
+}
+
+.contact label {
+    position: relative;
+    left: 10px;
+    vertical-align: top;
+}
+
+.contact textarea, input {
+    position: relative;
+    left: 20px;
+    padding: 5px;
+    resize: none;
+    margin: 0 0 10px;
+    background-color: #1b1b1b;
+    border-color: whitesmoke;
+    outline: none;
+    border-style: solid;
+}
+
+.contact textarea:focus, input:focus {
+    border-width: 3px;
+}
+
+.contact button {
+    position:relative;
+    left: 10px;
+    background-color: whitesmoke;
+    color: #1b1b1b;
+    border-radius: 0;
+    border-style: solid;
+    border-width: 3px;
+}
+
+.contact button:hover {
+    background-color: #20C20E;
+    border-color: #20C20E;
+}
+
+.footer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer p {
+    margin: 1% 5%;
+}
+
+
+@media screen and (max-width: 768px) {
+    .navbar {   
+        flex-direction: column;
+    }
+    .navbar a {
+        margin-right: auto;
+        margin-left: auto;
+        width: 100%;
+        padding-left: auto;
+        padding-right: auto;
+    }
+}

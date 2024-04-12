@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Junaid Chaudhry</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <!-- Navigation bar -->
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact Me</a>
+        <a href="https://bricksigma.itch.io/" target="_blank" style="margin-left: auto;" onmouseover="ChangeImage('itch-io', 'images/itchio-logo-textless-black.svg')" onmouseout="ChangeImage('itch-io', 'images/itchio-logo-textless-white.svg')">
+            <img id="itch-io" src="images/itchio-logo-textless-white.svg" alt="Itch.io" style="height: 22px;">
+        </a>
+        <a href="https://github.com/BrickSigma" target="_blank" onmouseover="ChangeImage('github-img', 'images/github-mark.svg')" onmouseout="ChangeImage('github-img', 'images/github-mark-white.svg')">
+            <img id="github-img" src="images/github-mark-white.svg" alt="GitHub" style="height: 22px;">
+        </a>
+    </nav>
+
+    <!-- Welcome -->
+    <div class="container hidden">
+        <div id="home" class="welcome">
+            <h1>Welcome!</h1>
+            <p>My name is Junaid Chaudhry.
+                I’m a passionate developer delved in the world of computer science and programming video games,
+                computer algorithms, and mathematics.
+            </p>
+        </div>
+        <img src="images/hello.svg" width="400px" style="position:absolute; right:7%; top: 40%">
+    </div>
+
+    <!-- Skills and Experience -->
+    <div class="container hidden">
+        <div class="skills">
+            <h1>Skills and Experience</h1>
+            <ul>
+                <li>Python</li>
+                <li style="left: 50px">C Programming</li>
+                <li style="left: 100px">6502 Assembly</li>
+            </ul>
+        </div>
+        <img src="images/skills.png" width="300px" style="position:absolute; right:16%; top: 40%">
+    </div>
+
+    <!-- Currently Studying -->
+    <div class="container hidden">
+        <div class="studying">
+            <h1>Currently Studying</h1>
+            <ul>
+                <li>Undergraduate in Informatics and Computer Science</li>
+                <li>Dart programming language</li>
+                <li>Web development with HTML, CSS and JavaScript</li>
+            </ul>
+        </div>
+        <img src="images/study.png" width="400px" style="position:absolute; left:12%; top: 15%">
+    </div>
+
+    <!-- Other hobbies -->
+    <div class="container hidden">
+        <div class="hobbies">
+            <h1>Other Hobbies</h1>
+            <p>In my free time I like to:</p>
+            <ul>
+                <li>Play piano</li>
+                <li>Photograph nature and wildlife</li>
+            </ul>
+        </div>
+        <img src="images/piano.png" width="600px" style="position:absolute; right:60px; top: 20%">
+    </div>
+
+    <!-- My Projects -->
+    <h1 id="portfolio" class="title hidden">My Projects</h1>
+
+    <!-- VGSockets -->
+    <div class="container hidden">
+        <div class="vgsockets">
+            <h2><a class="link" href="https://github.com/BrickSigma/VGSockets">VGSockets (in development)</a></h2>
+            <p>VGSockets (abbreviation of Video Game Sockets) is a cross-platform networking library
+                written in the C programming language, designed for game developers to ease the implementation of
+                multiplayer and networking features in their games.
+            </p>
+        </div>
+        <img src="images/networking logo.png" width="275px" style="position:absolute; right:10%; top: 30%">
+    </div>
+
+    <!-- Pong -->
+    <div class="container hidden">
+        <div class="pong">
+            <h2><a class="link" href="https://github.com/BrickSigma/Pong-NES">Pong - NES Edition</a></h2>
+            <p>This is a remake of the classic Atari game Pong programmed for the Nintendo Entertainment System
+                and written in 6502 Assembly.
+            </p>
+        </div>
+        <img src="images/pong.png" width="250px" style="position:absolute; left:10%; top: 15%">
+    </div>
+
+    <!-- Asteroids -->
+    <div class="container hidden">
+        <div class="asteroids">
+            <h2><a class="link" href="https://github.com/BrickSigma/Asteroids-pygame">Asteroids Clone</a></h2>
+            <p>Another remake of an Atari classic, Asteroids; written in the Python programming language alongside
+                the Pygame framework.
+            </p>
+        </div>
+        <img src="images/asteroids.png" width="275px" style="position:absolute; right:10%; top: 20%">
+    </div>
+
+    <!-- Tic-Tac-Toe -->
+    <div class="container hidden">
+        <div class="tic_tac_toe">
+            <h2><a class="link" href="https://github.com/BrickSigma/Tic-Tac-Toe-Minimax">Tic-Tac-Toe AI</a></h2>
+            <p>This project show cases the most simple implementation of the minimax algorithm through the
+                fun game of naughts and crosses.
+            </p>
+        </div>
+        <img src="images/tic tac toe.png" width="250px" style="position:absolute; left:10%; top: 15%">
+    </div>
+
+    <!-- Contact -->
+    <div class="container hidden">
+        <div id="contact" class="contact">
+            <h1>Contact Me</h1>
+            <p>If you’d like to get in touch to collaborate, feel free to send a message.</p>
+            <form name="contact">
+                <label for="name">Name:</label>
+                <input type="text" name = "name" id="name" size="30" placeholder="John Doe" value=""><br>
+                <label for="message">Message:</label>
+                <textarea rows="5" cols="50" maxlength="300" name="message" id="message" placeholder="Message" value=""></textarea><br>
+                <button type="button" onclick="SendEmail()">Send</button>
+            </form>
+        </div>
+        <img src="images/email.png" width="275px" style="position:absolute; right:20%; top: 25%">
+    </div>
+
+    <!-- Footer -->
+    <div class="container hidden">
+        <div class="footer">
+            <p>Junaid Chaudhry &copy 2023</p>
+            <p>jchaudhry05@gmail.com</p>
+            <p>&#9742 +254 110008070</p>
+        </div>
+    </div>
+
+
+
+</body>
+</html>
