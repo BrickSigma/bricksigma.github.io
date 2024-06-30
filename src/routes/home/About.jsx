@@ -1,6 +1,6 @@
 import './About.css';
 
-import Background from '../assets/about-background.png';
+import Background from '../../assets/about-background.png';
 
 // Create your About component here
 const About = () => {

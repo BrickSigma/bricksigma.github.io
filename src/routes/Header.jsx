@@ -8,6 +8,8 @@ import ItchIODark from '../assets/itchio-logo-textless-black.png';
 import LinkedInWhite from '../assets/In-White-128.png';
 import LinkedInBlue from '../assets/In-Blue-128.png';
 
+import { HashLink } from "react-router-hash-link";
+
 /** Icon container for header links. */
 var Icon = ({ white, dark, scrolled, href = "", alt = "" }) => {
     return (
@@ -35,13 +37,13 @@ const Header = () => {
     return (
         <div className={"header " + scrollStyle}>
             <div className="header-logo">
-                <a href="#app">{name}</a>
+                <HashLink to="/#app">{name}</HashLink>
             </div>
             <div className="header-container">
-                <a href="#about">About</a>
-                <a href="#projects">Projects</a>
-                <a href="#skills">Skills</a>
-                <a href="">Gallery</a>
+                <HashLink to="/#about">About</HashLink>
+                <HashLink to="/#projects">Projects</HashLink>
+                <HashLink to="/#skills">Skills</HashLink>
+                <HashLink to="/gallery">Gallery</HashLink>
             </div>
             <div className="icons-container">
                 <Icon href="https://github.com/BrickSigma" alt="GitHub" dark={GitHubDark} white={GitHubWhite} scrolled={scrollStyle} />
