@@ -1,0 +1,20 @@
+.title {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.title .name {
+  font-family: Creattion;
+  color: whitesmoke;
+  font-size: calc(12vw + 8vh);
+}
+
+.title .subheading {
+  /* font-family: Creattion; */
+  color: whitesmoke;
+  font-size: calc(3vw + 2vh);
+}

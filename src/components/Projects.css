@@ -1,0 +1,142 @@
+#projects {
+    width: 100vw;
+    /* height: 100vh; */
+    padding: 2.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#projects>h1 {
+    font-size: 8em;
+    padding: 0.5em;
+}
+
+#projects>.content {
+    width: 100%;
+    padding: 2vh 0;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 5vh;
+    justify-content: space-around;
+}
+
+.card {
+    width: 28vw;
+    height: 48vh;
+    background-color: #100c0825;
+    border-radius: 20px;
+    overflow: hidden;
+
+    display: flex;
+
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    box-shadow: 0 0 16px 6px whitesmoke;
+
+    text-align: left;
+
+    transition: transform 0.5s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.card>.body {
+    padding: 4%;
+    flex: 3;
+    overflow: scroll;
+    display: inline-block;
+}
+
+.card .img-container {
+    flex: 2;
+    position: relative;
+}
+
+.card img {
+    position: absolute;
+    height: 100%;
+    background-color: transparent;
+}
+
+.card h1 {
+    font-size: 3.25em;
+    padding: 0 0 0.5em 0;
+}
+
+.card p {
+    font-size: 2em;
+}
+
+.card a {
+    font-size: 1.75em;
+    overflow-wrap: break-word;
+    /* padding: 1em 0; */
+}
+
+.tools {
+    display: flex;
+    padding: 1em 0;
+    flex-wrap: wrap;
+}
+
+.toolItem {
+    font-size: 1.5em;
+    padding: 0.5em 1em;
+    background-color: gray;
+    border-radius: 50px;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+@media only screen and (max-width: 1280px) {
+    #projects>.content {
+        grid-template-columns: auto auto;
+    }
+
+    .card {
+        width: 40vw;
+        height: 38vh;
+    }
+
+    .card .img-container {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #projects>.content {
+        grid-template-columns: auto;
+    }
+
+    #projects>h1 {
+        font-size: 5.5em;
+    }
+
+    .card {
+        width: 90vw;
+        height: 32vh;
+    }
+
+    .card .img-container {
+        display: block;
+    }
+
+    .card h1 {
+        font-size: 2em;
+    }
+
+    .card p {
+        font-size: 1.5em;
+    }
+
+    .toolItem {
+        font-size: 1.1em;
+    }
+
+    .card a {
+        font-size: 1.1em;
+    }
+}
