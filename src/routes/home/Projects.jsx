@@ -1,11 +1,11 @@
 import './Projects.css';
 
-import VGSockets from '../../assets/vgsockets.png';
-import TicTacToe from '../../assets/tic-tac-toe.jpg';
-import Asteroids from '../../assets/asteroids.png';
-import Snake from '../../assets/snake.png';
-import Calculator from '../../assets/calculator.png';
-import CGOL from '../../assets/cgol.png';
+import VGSockets from '../../assets/projects/vgsockets.png';
+import TicTacToe from '../../assets/projects/tic-tac-toe.jpg';
+import Asteroids from '../../assets/projects/asteroids.png';
+import Snake from '../../assets/projects/snake.png';
+import Calculator from '../../assets/projects/calculator.png';
+import CGOL from '../../assets/projects/cgol.png';
 
 const Card = ({ title, body, img, tools = [], alt = "", github, repo }) => {
     const toolsList = [];

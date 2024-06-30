@@ -1,12 +1,12 @@
 import { useState } from "react";
 import './Header.css';
 
-import GitHubWhite from '../assets/github-mark-white.png';
-import GitHubDark from '../assets/github-mark.png';
-import ItchIOWhite from '../assets/itchio-logo-textless-white.png';
-import ItchIODark from '../assets/itchio-logo-textless-black.png';
-import LinkedInWhite from '../assets/In-White-128.png';
-import LinkedInBlue from '../assets/In-Blue-128.png';
+import GitHubWhite from '../assets/links/github-mark-white.png';
+import GitHubDark from '../assets/links/github-mark.png';
+import ItchIOWhite from '../assets/links/itchio-logo-textless-white.png';
+import ItchIODark from '../assets/links/itchio-logo-textless-black.png';
+import LinkedInWhite from '../assets/links/In-White-128.png';
+import LinkedInBlue from '../assets/links/In-Blue-128.png';
 
 import { HashLink } from "react-router-hash-link";
 

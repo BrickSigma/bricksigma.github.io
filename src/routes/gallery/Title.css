@@ -1,0 +1,39 @@
+#title {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+}
+
+.darken {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+
+  background-color: #100c0877;
+}
+
+#title .name {
+  font-family: Creattion;
+  color: whitesmoke;
+  font-size: calc(12vw + 8vh);
+  z-index: 3;
+  background-color: transparent;
+}
+
+#title img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
+}

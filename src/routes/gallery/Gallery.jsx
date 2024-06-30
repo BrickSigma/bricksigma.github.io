@@ -1,13 +1,16 @@
+import './Gallery.css';
+
 import React from 'react';
 import Header from '../Header';
+import Title from './Title';
+import Items from './Items';
 
 const Gallery = () => {
     return (
-        <div>
+        <div id='gallery'>
             <Header />
-            <div className='title'>
-
-            </div>
+            <Title />
+            <Items />
         </div>
     );
 };
