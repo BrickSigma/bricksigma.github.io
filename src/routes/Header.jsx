@@ -47,7 +47,7 @@ const Header = () => {
                 <HashLink to="/#about">About</HashLink>
                 <HashLink to="/#projects">Projects</HashLink>
                 <HashLink to="/#skills">Skills</HashLink>
-                <HashLink to="/gallery">Gallery</HashLink>
+                <HashLink to="/gallery#gallery">Gallery</HashLink>
             </div>
             <div className="icons-container">
                 <Icon href="https://github.com/BrickSigma" alt="GitHub" dark={GitHubDark} white={GitHubWhite} scrolled={scrollStyle} />
