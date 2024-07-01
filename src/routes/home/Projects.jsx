@@ -40,7 +40,7 @@ const Projects = () => {
             body="Video Game Sockets: A cross platform sockets library designed to make networking in video games and other applications easier"
             img={VGSockets}
             tools={["C", "Unix", "Win32"]}
-            github={"https:/github.com/BrickSigma/VGSockets"}
+            github={"https://github.com/BrickSigma/VGSockets"}
             repo={"github.com/BrickSigma/VGSockets"} />,
 
         <Card
@@ -49,7 +49,7 @@ const Projects = () => {
             body="A clone of the well known game mixed with an impossible 'AI' using the minimax algorithm"
             img={TicTacToe}
             tools={["C", "Raylib"]}
-            github={"https:/github.com/BrickSigma/Tic-Tac-Toe-Minimax"}
+            github={"https://github.com/BrickSigma/Tic-Tac-Toe-Minimax"}
             repo={"github.com/BrickSigma/Tic-Tac-Toe-Minimax"} />,
 
         <Card
@@ -58,7 +58,7 @@ const Projects = () => {
             body="Remake of the classic Atari game Asteroid in Python and Pygame"
             img={Asteroids}
             tools={["Python", "Pygame"]}
-            github={"https:/github.com/BrickSigma/Asteroids-pygame"}
+            github={"https://github.com/BrickSigma/Asteroids-pygame"}
             repo={"github.com/BrickSigma/Asteroids-pygame"} />,
 
         <Card
@@ -67,7 +67,7 @@ const Projects = () => {
             body="Just you're regular snake game, remade in C and using linked lists for my data structures class"
             img={Snake}
             tools={["C", "Raylib"]}
-            github={"https:/github.com/BrickSigma/C-Snake"}
+            github={"https://github.com/BrickSigma/C-Snake"}
             repo={"github.com/BrickSigma/C-Snake"} />,
 
         <Card
@@ -76,7 +76,7 @@ const Projects = () => {
             body="A university project to recreate the MacOS/iOS calculator app in Java and Swing"
             img={Calculator}
             tools={["Java", "Swing", "AWT"]}
-            github={"https:/github.com/BrickSigma/Java-Calculator"}
+            github={"https://github.com/BrickSigma/Java-Calculator"}
             repo={"github.com/BrickSigma/Java-Calculator"} />,
 
         <Card
@@ -85,7 +85,7 @@ const Projects = () => {
             body="A zero player game based on setting up the initial state of the world, Conway's game of life is a marvel of automata to look at!"
             img={CGOL}
             tools={["C", "Python", "Raylib", "Pygame"]}
-            github={"https:/github.com/BrickSigma/Game-ofLife-Raylib"}
+            github={"https://github.com/BrickSigma/Game-ofLife-Raylib"}
             repo={"github.com/BrickSigma/Game-ofLife-Raylib"} />,
     ];
 
