@@ -28,7 +28,7 @@ const Skills = () => {
                 <SkillCard img={C} body={"C Programming ~ 3 years"} />
                 <SkillCard img={CPP} body={"C++ ~ 2 years"} />
                 <SkillCard img={Flutter} body={"Flutter ~ 1 years"} />
-                <SkillCard img={Java} body={"Java ~ 1 year"} />
+                <SkillCard img={Java} body={"Java ~ 2 years"} />
                 <SkillCard img={Raylib} body={"Raylib ~ 3 years"} />
                 <SkillCard img={Git} body={"Git ~ 2 years"} />
                 <SkillCard img={Linux} body={"Linux ~ 2 years"} />

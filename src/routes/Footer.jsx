@@ -4,7 +4,7 @@ import './Footer.css';
 const Footer = () => {
     return (
         <div id="footer">
-            <p>{"\u00A9"} Copyright 2024 by Mohamed Junaid Chaudhry</p>
+            <p>{"\u00A9"} Copyright {new Date().getFullYear()} by Mohamed Junaid Chaudhry</p>
         </div>
     )
 }
