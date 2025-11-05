@@ -3,7 +3,7 @@ import './Projects.css';
 import VGSockets from '../../assets/projects/vgsockets.png';
 import TicTacToe from '../../assets/projects/tic-tac-toe.jpg';
 import Asteroids from '../../assets/projects/asteroids.png';
-import Snake from '../../assets/projects/snake.png';
+import OSDev from '../../assets/projects/osdev.png';
 import Calculator from '../../assets/projects/calculator.png';
 import CGOL from '../../assets/projects/cgol.png';
 
@@ -36,6 +36,15 @@ const Projects = () => {
     let list = [
         <Card
             key={0}
+            title="SteinerOS"
+            body="A x86 hobby operating system (still in early development) with the aim to support a FAT 32 filesystem and BIOS/EUFI bootloader"
+            img={OSDev}
+            tools={["C", "Assembly", "OSDev", "Kernel development"]}
+            github={"https://github.com/BrickSigma/SteinerOS"}
+            repo={"github.com/BrickSigma/SteinerOS"} />,
+
+        <Card
+            key={1}
             title="VGSockets"
             body="Video Game Sockets: A cross platform sockets library designed to make networking in video games and other applications easier"
             img={VGSockets}
@@ -44,7 +53,7 @@ const Projects = () => {
             repo={"github.com/BrickSigma/VGSockets"} />,
 
         <Card
-            key={1}
+            key={2}
             title="Tic-Tac-Toe Minimax Algorithm"
             body="A clone of the well known game mixed with an impossible 'AI' using the minimax algorithm"
             img={TicTacToe}
@@ -53,22 +62,13 @@ const Projects = () => {
             repo={"github.com/BrickSigma/Tic-Tac-Toe-Minimax"} />,
 
         <Card
-            key={2}
+            key={3}
             title="Asteroids clone"
             body="Remake of the classic Atari game Asteroid in Python and Pygame"
             img={Asteroids}
             tools={["Python", "Pygame"]}
             github={"https://github.com/BrickSigma/Asteroids-pygame"}
             repo={"github.com/BrickSigma/Asteroids-pygame"} />,
-
-        <Card
-            key={3}
-            title="C-Snake"
-            body="Just you're regular snake game, remade in C and using linked lists for my data structures class"
-            img={Snake}
-            tools={["C", "Raylib"]}
-            github={"https://github.com/BrickSigma/C-Snake"}
-            repo={"github.com/BrickSigma/C-Snake"} />,
 
         <Card
             key={4}

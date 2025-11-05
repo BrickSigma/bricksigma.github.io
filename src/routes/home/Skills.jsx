@@ -24,14 +24,14 @@ const Skills = () => {
         <div id="skills">
             <h1>My Skills</h1>
             <div className='content'>
-                <SkillCard img={Python} body={"Python ~ 4 years"} />
-                <SkillCard img={C} body={"C Programming ~ 3 years"} />
-                <SkillCard img={CPP} body={"C++ ~ 2 years"} />
-                <SkillCard img={Flutter} body={"Flutter ~ 1 years"} />
-                <SkillCard img={Java} body={"Java ~ 2 years"} />
-                <SkillCard img={Raylib} body={"Raylib ~ 3 years"} />
-                <SkillCard img={Git} body={"Git ~ 2 years"} />
-                <SkillCard img={Linux} body={"Linux ~ 2 years"} />
+                <SkillCard img={Python} body={"Python"} />
+                <SkillCard img={C} body={"C Programming"} />
+                <SkillCard img={CPP} body={"C++"} />
+                <SkillCard img={Flutter} body={"Flutter"} />
+                <SkillCard img={Java} body={"Java"} />
+                <SkillCard img={Raylib} body={"Raylib"} />
+                <SkillCard img={Git} body={"Git"} />
+                <SkillCard img={Linux} body={"Linux"} />
             </div>
         </div>
     );
