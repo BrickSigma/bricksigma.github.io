@@ -52,7 +52,7 @@ const Header = () => {
             <div className="icons-container">
                 <Icon href="https://github.com/BrickSigma" alt="GitHub" dark={GitHubDark} white={GitHubWhite} scrolled={scrollStyle} />
                 <Icon href="https://bricksigma.itch.io/" alt="Itch.io" dark={ItchIODark} white={ItchIOWhite} scrolled={scrollStyle} />
-                <Icon href="https://www.linkedin.com/in/mohamed-junaid-chaudhry-458b4b208/" alt="LinkedIn" dark={LinkedInBlue} white={LinkedInWhite} scrolled={scrollStyle} />
+                <Icon href="https://www.linkedin.com/in/junaid-chaudhry-458b4b208" alt="LinkedIn" dark={LinkedInBlue} white={LinkedInWhite} scrolled={scrollStyle} />
                 <Icon href={CV} alt="CV" dark={CVWhite} white={CVDark} scrolled={scrollStyle} />
             </div>
         </div>
